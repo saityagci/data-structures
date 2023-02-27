@@ -50,6 +50,19 @@ public class ThreeSum {
         }
         // In a nested loop try to find a match for each pair
         //  from hash map that adds up to target value
+        //array = [12, 3, 1, 2, -6, 5, -8, 6]. targetSum = 0
+        // -8 -6 1 2 3 5 6 12
+        // 8 6 -1 -2 -3 -5 -6 -12
+        //(-8,0) (-6,1) (1,2) (2,3) (3,4) (5,5) (6,6) (12,7)
+        //i=0 j=1 14 7 6 5 3 2 -4
+        //i=1 j=2  5 4 3 1 0 -6
+        //i=2 j=3 -3 -4 -6 -13
+        //i=3 j=4 -5 -7 -8 -14
+        //i=4 j=5 -8 -9 -15
+        //i=5 j=6 -11 -17
+        //i=6 j=7 -18
+        //Sample Output
+        //[[-8, 2, 6], [-8, 3, 5], [-6, 1, 5]]
         for(int i = 0 ; i < nums.length-1; i++){   // O(n^2)
             for(int j = i+1; j< nums.length; j++){
                 List<Integer> triplet = new ArrayList();
