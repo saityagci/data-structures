@@ -35,6 +35,7 @@ public class MySinglyLinkedList {
         while(current!=null){
             if(current.next==null) System.out.print(current.value + "=> null");
             else System.out.print(current.value +"=>");
+
             current=current.next;
         }
         System.out.println();
