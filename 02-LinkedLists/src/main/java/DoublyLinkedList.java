@@ -136,6 +136,21 @@ public class DoublyLinkedList {
         // Write your code here.
         return false;
     }
+    public void printNodes(){
+        Node current=head;
+        while(current!=null){
+            if (current.next==null) System.out.print(current.value+"->"+"null");
+            else  System.out.print(current.value+"->");
+            current=current.next;
+        }
+    }
+    public void removeNodeBindings(Node node) {
+        if (node.prev != null) node.prev.next = node.next;
+        if (node.next != null) node.next.prev = node.prev;
+        node.prev = null;
+        node.next = null;
+    }
+
 
 
 }
