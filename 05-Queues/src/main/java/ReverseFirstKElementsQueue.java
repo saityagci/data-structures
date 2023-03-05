@@ -9,7 +9,10 @@ public class ReverseFirstKElementsQueue {
         for (int i = 1; i < 6; i++) {
             queue.add(i);
         }
+        System.out.println(queue);
         System.out.println(ReverseFirstK(queue, 3));
+
+
 
     }
     public static Deque<Integer> ReverseFirstK(Deque<Integer> queue , int k){
@@ -28,4 +31,5 @@ public class ReverseFirstKElementsQueue {
         }
         return queue;
     }
+
 }
