@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/04-Recursion/04-Recursion.iml" filepath="$PROJECT_DIR$/04-Recursion/04-Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-Queues/05-Queues.iml" filepath="$PROJECT_DIR$/05-Queues/05-Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-Trees/06-Trees.iml" filepath="$PROJECT_DIR$/06-Trees/06-Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Heaps/07-Heaps.iml" filepath="$PROJECT_DIR$/07-Heaps/07-Heaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/15-AlgorithmQuestions/15-AlgorithmQuestions.iml" filepath="$PROJECT_DIR$/15-AlgorithmQuestions/15-AlgorithmQuestions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/data-structures.iml" filepath="$PROJECT_DIR$/.idea/data-structures.iml" />
     </modules>
