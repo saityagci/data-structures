@@ -6,6 +6,7 @@ public class HeapMainApp {
         heap.insert(52);
         heap.insert(45);
         heap.insert(83);
+        heap.insert(2000000);
         heap.printHeap();
     }
 }
